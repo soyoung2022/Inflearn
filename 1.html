@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--head 태그는 body를 설명하는 태그이다.-->
+<head>
+    <!--charset: char은 문자, set은 규칙이다.-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB1 - HTML</title>
+</head>
+<!--본문을 body 태그로 감쌈-->
+<body>
+    <h1><a href="index.html"></a>WEB</h1>
+    <!--web은 accessibility를 중요시함 -> 모든 운영체제에서 작동하고 public domain임-->
+    <!--태그: 무언가를 설명하는 태그-->
+
+    <!--ul tag: defines an unordered list -> use the ul tage together with the li tag to create unordered list-->
+    <!--li 태그: defines an list item, li tag is used inside ordered list(<ol>), unordered list(<ul>) and in menu lists(<menu>)-->
+    <!--
+        <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+    </ul>
+    -->
+    <!--ol tag: defines an ordered list(numerical or alphabetical) -> li tag is used to define each list item-->
+    <ol>
+        <li> <a href="1.html"> HTML </a> </li>
+        <li> <a href="2.html"> CSS </a> </li>
+        <li> <a href="3.html"> Javascript </a> </li>
+    </ol>
+    <!--
+        strong 태그: 강조하는 볼드체 태그, u 태그(underline): 밑줄치는 태그
+        h1 ~`h6 태그: 제목을 나타내는 태그이며, 줄바꿈을 포함한다.-->
+    <h2>HTML</h2>
+    <!--img 태그: defines a image, src(source): specifies the path to the image, alt: specifies am alternate text for the image if the image for some reason cannot be displayed.
+        속성(Attribute): 위치는 상관없음, 태그가 태그 이름만으로는 정보가 부족할 때 속성을 이용해 더 많은 의미를 부여한다. Ex) src, width ...-->
+    <img src="img/coding.jpg" width="100%">
+    <!--p 태그(paragraph): defines a paragraph
+        a 태그(anchor): defines a hyperlink
+        속성 href(hypertext reference) : Specifies the URL of the page the link goes to
+        속성 target: Specifies where to open the linked document(value: _blank, _parent, _self, _top)-->
+    <p> <a href="https://www.w3.org/TR/2011/WD-html5-20110405/" target="_blank" title="html specification">HyperText Markup Language(HTML)</a> is the standard markup language for <strong> creating <u> web </u> pages </strong> and web applications.</p>
+        <!--br 태그: defines a single line break-->
+    <p style="margin-top: 10px;">HTML elements are building blocks of HTML pages. With HTML constructs, 
+    images and other objects, such as interactive forms, may be embedded into the rendered page.<br> It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. </p>
+    <!--
+    <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <h5>This is heading 5</h5>
+    <h6>This is heading 6</h6> -->
+</body>
+</html>
